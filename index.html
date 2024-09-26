@@ -1,609 +1,176 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth h-full">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sumukha Sureban</title>
+  <title>Sharat Kumar</title>
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="customstyle.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    /* Add smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
-<body>
-    <div class="flex min-h-[100dvh] flex-col bg-background text-foreground">
-        <header class="sticky top-0 z-50 bg-background/80 backdrop-blur-sm">
-          <div class="container mx-auto flex h-16 max-w-5xl items-center justify-between px-4 sm:px-6 lg:px-8">
-            <a class="flex items-center gap-2 animate-fade-in-up" href="#">
-              <span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full">
-                <span class="flex h-full w-full items-center justify-center rounded-full bg-muted bg-[#18191A] text-white">SN</span>
-              </span>
-              <span class="font-medium">Sumukha Sureban</span>
-            </a>
-            <nav class="flex items-center gap-4 animate-fade-in-up">
-              <a class="hover:underline" href="#">
-                About
-              </a>
-              <a class="hover:underline" href="#">
-                Projects
-              </a>
-              <a class="hover:underline" href="#">
-                Skills
-              </a>
-              <a class="hover:underline" href="#">
-                Contact
-              </a>
-            </nav>
-          </div>
-        </header>
-        
 
-        <main class="flex-1">
-          <section id="hero" class="container mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8 animate-fade-in">
-            <div class="grid gap-8 lg:grid-cols-2">
-              <div class="space-y-4 animate-fade-in-up">
-                <br>
-                <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">Hello, I'm Sumukha Sureban</h1>
-                <p class="text-lg text-muted-foreground">
-                    A recent graduate with a deep passion for computer science and a relentless drive to make a transformative impact in the industry."
-                </p>
-                <div class="flex gap-4">
-                  <a
-                    class="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 animate-fade-in-up bg-[#18191A] text-white"
-                    href="#"
-                  >
-                    View Resume
-                  </a>
-                  <a
-                    class="inline-flex items-center justify-center rounded-md border border-input bg-background px-4 py-2 text-sm font-medium text-muted-foreground shadow-sm transition-colors hover:bg-muted hover:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 animate-fade-in-up "
-                    href="#"
-                  >
-                    Contact Me
-                  </a>
-                </div>
-              </div>
-              <div class="flex justify-center animate-fade-in-up">
-                <img
-                  src="./A45=404 copy 2.JPG"
-                  width="300"
-                  height="430"
-                  alt="Profile Picture"
-                  class="rounded-full"
-                  style="aspect-ratio:300/300;object-fit:cover"
-                />
-              </div>
-            </div>
-          </section>
-          <section id="about" class="container mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8 animate-fade-in">
-            <div class="grid gap-8 lg:grid-cols-2">
-              <div class="animate-fade-in-up">
-                <h2 class="text-3xl font-bold tracking-tight">About Me</h2>
-                <p class="mt-4 text-muted-foreground">
-                    I am a recent graduate with a degree in Computer Science. During my studies, I developed a strong passion for web development and machine learning, and I have been honing my skills in various technologies and frameworks.
-                </p>
-                <p class="mt-4 text-muted-foreground">
-                  I am a quick learner, a problem-solver, and a team player. I am excited to apply my knowledge and skills
-                  to real-world projects and contribute to the growth and success of the companies I work with.
-                </p>
-                <div class="mt-6">
-                  <a
-                    class="bg-black text-white items-center justify-center rounded-md bg-primary px-4 py-4 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 animate-fade-in-up"
-                    href="#"
-                  >
-                    Download Resume
-                  </a>
-                </div>
-              </div>
-              <div class="animate-fade-in-up">
-                <h2 class="text-3xl font-bold tracking-tight">Education</h2>
-                <div class="mt-4 space-y-4">
-                  <div>
-                    <h3 class="text-lg font-medium">Master Of Computer Application</h3>
-                    <p class="text-muted-foreground">PES University, 2023 - 2025</p>
-                  </div>
-                  <div>
-                    <h3 class="text-lg font-medium">Bachelor Of Computer Application</h3>
-                    <p class="text-muted-foreground">KLE JT BCA, 2020 - 2023</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="projects" class="container mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8 animate-fade-in">
-            <h2 class="text-3xl font-bold tracking-tight">My Projects</h2>
-            <div class="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 animate-fade-in-up">
-              <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                <div class="flex flex-col space-y-1.5 p-6">
-                  <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Project 1</h3>
-                  <p class="text-sm text-muted-foreground">A web application for managing tasks and to-do lists.</p>
-                </div>
-                <div class="p-6">
-                  <p class="text-muted-foreground">
-                    Developed a full-stack web application using React, Node.js, and MongoDB. Implemented features such as
-                    user authentication, task management, and real-time updates.
-                  </p>
-                </div>
-                <div class="flex items-center p-6">
-                  <a
-                    class="bg-black text-white inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 animate-fade-in-up"
-                    href="#"
-                  >
-                    Live Demo
-                  </a>
-                </div>
-              </div>
-              <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                <div class="flex flex-col space-y-1.5 p-6">
-                  <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Project 2</h3>
-                  <p class="text-sm text-muted-foreground">A responsive e-commerce website for a local clothing brand.</p>
-                </div>
-                <div class="p-6">
-                  <p class="text-muted-foreground">
-                    Designed and developed a mobile-friendly e-commerce website using , Tailwind CSS
-                    for payment processing. Implemented features such as product browsing, shopping cart, and order
-                    management.
-                  </p>
-                </div>
-                <div class="flex items-center p-6">
-                  <a
-                    class="bg-black text-white inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 animate-fade-in-up"
-                    href="#"
-                  >
-                    Live Demo
-                  </a>
-                </div>
-              </div>
-              <div class="rounded-lg border bg-card text-card-foreground shadow-sm" data-v0-t="card">
-                <div class="flex flex-col space-y-1.5 p-6">
-                  <h3 class="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">Project 3</h3>
-                  <p class="text-sm text-muted-foreground">
-                    A data visualization dashboard for a non-profit organization.
-                  </p>
-                </div>
-                <div class="p-6">
-                  <p class="text-muted-foreground">
-                    Developed a data visualization dashboard using React, D3.js, and Recharts. Implemented features such
-                    as interactive charts, data filtering, and real-time updates.
-                  </p>
-                </div>
-                <div class="flex items-center p-6">
-                  <a
-                    class="bg-black text-white inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm transition-colors hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 animate-fade-in-up"
-                    href="#"
-                  >
-                    Live Demo
-                  </a>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section id="skills" class="container mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8 animate-fade-in">
-            <h2 class="text-3xl font-bold tracking-tight">My Skills</h2>
-            <div class="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 animate-fade-in-up">
-              <div>
-                <h3 class="text-lg font-medium">Technical Skills</h3>
-                <ul class="mt-4 space-y-2 text-muted-foreground">
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <polyline points="16 18 22 12 16 6"></polyline>
-                      <polyline points="8 6 2 12 8 18"></polyline>
-                    </svg>
-                    JavaScript, Python
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
-                      <line x1="12" x2="12" y1="22" y2="15.5"></line>
-                      <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
-                      <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
-                      <line x1="12" x2="12" y1="2" y2="8.5"></line>
-                    </svg>
-                    React, Numpy, Pandas, Sklearn
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <rect width="20" height="8" x="2" y="2" rx="2" ry="2"></rect>
-                      <rect width="20" height="8" x="2" y="14" rx="2" ry="2"></rect>
-                      <line x1="6" x2="6.01" y1="6" y2="6"></line>
-                      <line x1="6" x2="6.01" y1="18" y2="18"></line>
-                    </svg>
-                    Node.js, Express
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                      <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
-                      <path d="M3 12A9 3 0 0 0 21 12"></path>
-                    </svg>
-                    MongoDB, SQL
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2"></polygon>
-                      <line x1="12" x2="12" y1="22" y2="15.5"></line>
-                      <polyline points="22 8.5 12 15.5 2 8.5"></polyline>
-                      <polyline points="2 15.5 12 8.5 22 15.5"></polyline>
-                      <line x1="12" x2="12" y1="2" y2="8.5"></line>
-                    </svg>
-                    HTML, CSS, Tailwind CSS
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 class="text-lg font-medium">Soft Skills</h3>
-                <ul class="mt-4 space-y-2 text-muted-foreground">
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                      <circle cx="9" cy="7" r="4"></circle>
-                      <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
-                      <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                    </svg>
-                    Teamwork and Collaboration
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path>
-                      <path d="M9 18h6"></path>
-                      <path d="M10 22h4"></path>
-                    </svg>
-                    Problem-Solving and Critical Thinking
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <path d="M2 3h20"></path>
-                      <path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3"></path>
-                      <path d="m7 21 5-5 5 5"></path>
-                    </svg>
-                    Effective Communication
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path>
-                      <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path>
-                      <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path>
-                      <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
-                    </svg>
-                    Adaptability and Continuous Learning
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <line x1="10" x2="14" y1="2" y2="2"></line>
-                      <line x1="12" x2="15" y1="14" y2="11"></line>
-                      <circle cx="12" cy="14" r="8"></circle>
-                    </svg>
-                    Time Management and Organization
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 class="text-lg font-medium">Certifications</h3>
-                <ul class="mt-4 space-y-2 text-muted-foreground">
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
-                    </svg>
-                    Certified Web Developer, Udemy
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
-                    </svg>
-                    Machine Learning (ZTM), Udemy
-                  </li>
-                  <li>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="mr-2 inline-block h-5 w-5"
-                    >
-                      <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path>
-                    </svg>
-                    Blockchain, Codeeater
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
-          <section id="contact" class="container mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8 animate-fade-in">
-            <h2 class="text-3xl font-bold tracking-tight">Get in Touch</h2>
-            <div class="mt-8 grid gap-8 sm:grid-cols-2 animate-fade-in-up">
-              <div>
-                <h3 class="text-lg font-medium">Contact Information</h3>
-                <div class="mt-4 space-y-4 text-muted-foreground">
-                  <div class="flex items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="h-5 w-5"
-                    >
-                      <rect width="20" height="16" x="2" y="4" rx="2"></rect>
-                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                    </svg>
-                    <span><a href="mailto:sumukhasureban@gmail.com">sumukhasureban@gmail.com</a></span>
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="h-5 w-5"
-                    >
-                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                    </svg>
-                    <span><a href="tel:+919945009322">+919945009322</a></span>
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="h-5 w-5"
-                    >
-                      <line x1="2" x2="5" y1="12" y2="12"></line>
-                      <line x1="19" x2="22" y1="12" y2="12"></line>
-                      <line x1="12" x2="12" y1="2" y2="5"></line>
-                      <line x1="12" x2="12" y1="19" y2="22"></line>
-                      <circle cx="12" cy="12" r="7"></circle>
-                    </svg>
-                    <span>Near Tenginkai Bazar, Renuka Nivas, CB Road Betageri-Gadag, India 582102</span>
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="h-5 w-5"
-                    >
-                      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
-                      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
-                    </svg>
-                    <a href="https://linkedin.com/in/sumukha-sureban-94baa0204/" target="_blank">LinkedIn</a>
-                  </div>
-                  <div class="flex items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      class="h-5 w-5"
-                    >
-                      <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
-                      <path d="M9 18c-4.51 2-5-2-7-2"></path>
-                    </svg>
-                    <a href="https://github.com/dev-sumukha" target="_blank">GitHub</a>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <h3 class="text-lg font-medium">Contact Form</h3>
-                <form class="mt-4 space-y-4">
-                  <div>
-                    <label
-                      class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                      for="name"
-                    >
-                      Name
-                    </label>
-                    <input
-                      class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                      type="text"
-                      id="name"
-                      required=""
-                      autocomplete="off"
-                    />
-                  </div>
-                  <div>
-                    <label
-                      class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                      for="email"
-                    >
-                      Email
-                    </label>
-                    <input
-                      class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                      type="email"
-                      id="email"
-                      required=""
-                      autocomplete="off"
+<body class="bg-[#131313] text-white overflow-y-auto">
 
-                    />
-                  </div>
-                  <div>
-                    <label
-                      class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                      for="message"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                      id="message"
-                      rows="4"
-                      required=""
-                    ></textarea>
-                  </div>
-                  <button
-                    class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full animate-fade-in-up bg-[#18191A] text-white"
-                    type="submit"
-                  >
-                    Send Message
-                  </button>
-                </form>
-              </div>
-            </div>
-          </section>
-        </main>
-        <footer class="bg-muted py-6 animate-fade-in">
-          <div class="container mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 text-center text-muted-foreground">
-            <p>© 2024 John Doe. All rights reserved.</p>
-          </div>
-        </footer>
+  <!-- Particle Background -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Navbar -->
+  <nav class="bg-[#211428] p-4 fixed w-full top-0 left-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <!-- Logo -->
+      <a href="#" class="text-2xl font-extrabold tracking-wider">
+        <span class="text-[#ab4af2]">SK</span> <span>|</span> Sharat Kumar
+      </a>
+
+      <!-- Mobile Menu Button -->
+      <button id="menuButton" class="md:hidden focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+
+      <!-- Desktop Links -->
+      <div class="hidden md:flex space-x-8">
+        <a href="#hero" class="hover:text-gray-300 hover:scale-105 transition-transform">Home</a>
+        <a href="#about" class="hover:text-gray-300 hover:scale-105 transition-transform">About</a>
+        <a href="#projects" class="hover:text-gray-300 hover:scale-105 transition-transform">Services</a>
+        <a href="#contact" class="hover:text-gray-300 hover:scale-105 transition-transform">Contact</a>
       </div>
+    </div>
+
+    <!-- Mobile Menu (hidden by default) -->
+    <div id="mobileMenu" class="absolute bg-[#211428] w-full left-0 top-full hidden md:hidden">
+      <div class="flex flex-col p-4 space-y-2">
+        <a href="#hero" class="hover:text-gray-300">Home</a>
+        <a href="#about" class="hover:text-gray-300">About</a>
+        <a href="#projects" class="hover:text-gray-300">Services</a>
+        <a href="#contact" class="hover:text-gray-300">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="container py-20 px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-14">
+      <!-- Hero Text Column -->
+      <div>
+        <p class="text-lg font-semibold uppercase text-[#ab4af2]">Welcome to my world</p>
+        <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight">Hey, I'm <span class="text-[#ab4af2]">Sharat Kumar</span></h1>
+        <p class="text-xl mt-4">Developer and Machine Learning Expert with a passion for building impactful solutions.</p>
+        <br>
+        <a href="#contact" class="bg-[#ab4af2] py-3 px-6 rounded-full font-semibold hover:bg-[#9a3df2] transition-all">Contact Me</a>
+      </div>
+
+      <!-- Cube Animation Column -->
+      <div class="flex justify-center">
+        <div class="cube">
+          <div>SK</div>
+          <div>ML</div>
+          <div>JS</div>
+          <div>AI</div>
+          <div>WEB</div>
+          <div>CODE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Education Section -->
+  <section id="about" class="py-12 px-8">
+    <div class="container grid grid-cols-1 md:grid-cols-2 gap-8">
+      <!-- About Me Column -->
+      <div>
+        <h2 class="text-3xl font-bold text-[#ab4af2]">About Me</h2>
+        <p class="text-lg mt-4">
+          I am a recent graduate with a degree in Computer Science. During my studies, I developed a strong passion for 
+          <span class="font-semibold text-[#ab4af2]">web development</span> and <span class="font-semibold text-[#ab4af2]">machine learning</span>, and have been honing my skills across various technologies and frameworks.
+        </p>
+        <p class="text-lg mt-2">
+          I am a quick learner, problem-solver, and team player. I'm excited to apply my knowledge to real-world projects and contribute to company success.
+        </p>
+        <a href="#" class="inline-block bg-[#ab4af2] py-3 px-6 mt-6 rounded-md shadow-md hover:bg-[#9a3df2] transition">Download Resume</a>
+      </div>
+      
+      <!-- Education Column -->
+      <div class="ml-14">
+        <h2 class="text-3xl font-bold text-[#ab4af2]">Education</h2>
+        <div class="mt-4 space-y-4">
+          <div>
+            <h3 class="text-xl font-semibold">Master of Computer Application</h3>
+            <p class="text-gray-400">PES University, 2023 - 2025</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold">Bachelor of Computer Application</h3>
+            <p class="text-gray-400">KLE JT BCA, 2020 - 2023</p>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold">Pre University Course</h3>
+            <p class="text-gray-400">Sanmarg PU College, 2018 - 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-12 px-8">
+    <div class="container">
+      <h2 class="text-3xl font-bold text-[#ab4af2] text-center mb-12">My Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-[#211428] p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:bg-[#2b1840] hover:shadow-neon hover:shadow-[#ab4af2]/70">
+          <h3 class="text-2xl font-bold mb-4">Project 1</h3>
+          <p class="text-lg text-gray-300 mb-4">A web application for managing tasks and to-do lists.</p>
+          <p class="text-gray-400">Our Todo List application features <span class="font-semibold text-white">JWT authentication</span> for secure user sessions and sends <span class="font-semibold text-white">email reminders</span> via Nodemailer to keep tasks on track. All tasks and user information are securely stored in a <span class="font-semibold text-white">scalable cloud-based MongoDB database</span>, providing flexibility and reliability for managing data.</p>
+        </div>
+  
+        <!-- Project 2 -->
+        <div class="bg-[#211428] p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:bg-[#2b1840] hover:shadow-neon hover:shadow-[#ab4af2]/70">
+          <h3 class="text-2xl font-bold mb-4">Project 2</h3>
+          <p class="text-lg text-gray-300 mb-4">Password Manager (Kavach)</p>
+          <p class="text-gray-400">Our Password Manager uses <span class="font-semibold text-white">AES encryption</span> to securely store passwords, requiring a key for decryption. Passwords are visible for <span class="font-semibold text-white">30 seconds</span> before hiding. Users can also upload profile photos, stored securely in <span class="font-semibold text-white">Cloudinary</span>. Token-based authentication ensures only authorized access to accounts.</p>
+        </div>
+  
+        <!-- Project 3 -->
+        <div class="bg-[#211428] p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:bg-[#2b1840] hover:shadow-neon hover:shadow-[#ab4af2]/70">
+          <h3 class="text-2xl font-bold mb-4">Project 3</h3>
+          <p class="text-lg text-gray-300 mb-4">Soil Moisture Prediction</p>
+          <p class="text-gray-400">Our Soil Moisture Prediction project implements various machine learning algorithms for predicting soil moisture levels based on environmental factors. It encompasses <span class="font-semibold text-white">data preprocessing</span>, model training, and evaluation. The project emphasizes accuracy and efficiency, aiming to optimize agricultural practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 px-8 bg-[#211428] text-white">
+    <div class="container">
+      <h2 class="text-3xl font-bold text-[#ab4af2] text-center mb-8">Contact Me</h2>
+      <form action="#" method="POST" class="max-w-xl mx-auto">
+        <div class="mb-4">
+          <label for="name" class="block text-lg mb-2">Name</label>
+          <input type="text" id="name" name="name" required class="w-full p-3 rounded-md bg-[#2b1840] border border-gray-600">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-lg mb-2">Email</label>
+          <input type="email" id="email" name="email" required class="w-full p-3 rounded-md bg-[#2b1840] border border-gray-600">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-lg mb-2">Message</label>
+          <textarea id="message" name="message" required class="w-full p-3 rounded-md bg-[#2b1840] border border-gray-600"></textarea>
+        </div>
+        <button type="submit" class="bg-[#ab4af2] py-3 px-6 rounded-md shadow-md hover:bg-[#9a3df2] transition">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
