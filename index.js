@@ -5,8 +5,6 @@ canvas.height = window.innerHeight;
 
 let particlesArray = [];
 
-
-
 class Particle {
     constructor(x, y, size, color, speedX, speedY) {
         this.x = x;
