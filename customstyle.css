@@ -48,7 +48,6 @@
   from {
     transform: rotateX(0) rotateY(0);
   }
-
   to {
     transform: rotateX(360deg) rotateY(360deg);
   }
